@@ -6,12 +6,12 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-[#0f172a] text-white border-t border-white/10">
-      
+
       <div className="max-w-7xl mx-auto px-6 py-14">
-        
+
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          
+
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/">
@@ -61,11 +61,10 @@ export default function Footer() {
             </h3>
 
             <div className="flex gap-4 md:justify-end">
-              <SocialLink href="#" icon={Github} />
+              <SocialLink href="https://github.com/chdhryanju24-debug" icon={Github} />
               <SocialLink href="#" icon={Linkedin} />
-              <SocialLink href="mailto:your@email.com" icon={Mail} />
+              <SocialLink  href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@example.com&subject=Hello%20World&body=Hi%20there" icon={Mail} />
             </div>
-
             <a
               href="/resume.pdf"
               className="inline-block mt-6 px-5 py-2 text-sm font-medium rounded-full bg-indigo-600 text-white hover:bg-indigo-500 transition"

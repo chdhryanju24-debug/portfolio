@@ -2,7 +2,7 @@ import { Button } from "./ui/Button";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#0f172a] text-white">
+    <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#0f172a] text-white">
       
       {/* Background Glow */}
       <div className="absolute w-96 h-96 bg-[#92908b]/30 blur-3xl rounded-full top-20 left-10"></div>

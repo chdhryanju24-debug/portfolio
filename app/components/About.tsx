@@ -1,23 +1,27 @@
+"use client";
+
+import React from "react";
+
 export default function About() {
   return (
     <section
       id="about"
       className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#0f172a] text-white overflow-hidden"
     >
-      {/* Glow Effects */}
+      {/* 🔹 Glow Effects */}
       <div className="absolute w-80 h-80 bg-[#92908b]/20 blur-3xl rounded-full top-10 left-10"></div>
       <div className="absolute w-80 h-80 bg-[#2e457f]/20 blur-3xl rounded-full bottom-10 right-10"></div>
 
       <div className="relative max-w-6xl mx-auto">
-        
-        {/* Heading */}
+
+        {/* 🔹 Heading */}
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
           About Me
         </h2>
 
-        {/* Content */}
+        {/* 🔹 Content Grid */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          
+
           {/* Left Side - Text */}
           <div>
             <p className="text-neutral-300 leading-relaxed mb-6">
@@ -59,7 +63,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Bottom CTA */}
+        {/* 🔹 Bottom CTA */}
         <div className="mt-16 text-center">
           <a
             href="#contact"
@@ -68,6 +72,7 @@ export default function About() {
             Let's Work Together 🚀
           </a>
         </div>
+
       </div>
     </section>
   );
